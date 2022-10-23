@@ -1,0 +1,12 @@
+/Users/macbookpro/Desktop/Span/add-edit/Span.Library/src/SpanAcademy.SpanLibrary.Domain/bin/Debug/net6.0/SpanAcademy.SpanLibrary.Domain.deps.json
+/Users/macbookpro/Desktop/Span/add-edit/Span.Library/src/SpanAcademy.SpanLibrary.Domain/bin/Debug/net6.0/SpanAcademy.SpanLibrary.Domain.dll
+/Users/macbookpro/Desktop/Span/add-edit/Span.Library/src/SpanAcademy.SpanLibrary.Domain/bin/Debug/net6.0/SpanAcademy.SpanLibrary.Domain.pdb
+/Users/macbookpro/Desktop/Span/add-edit/Span.Library/src/SpanAcademy.SpanLibrary.Domain/obj/Debug/net6.0/SpanAcademy.SpanLibrary.Domain.csproj.AssemblyReference.cache
+/Users/macbookpro/Desktop/Span/add-edit/Span.Library/src/SpanAcademy.SpanLibrary.Domain/obj/Debug/net6.0/SpanAcademy.SpanLibrary.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/Desktop/Span/add-edit/Span.Library/src/SpanAcademy.SpanLibrary.Domain/obj/Debug/net6.0/SpanAcademy.SpanLibrary.Domain.AssemblyInfoInputs.cache
+/Users/macbookpro/Desktop/Span/add-edit/Span.Library/src/SpanAcademy.SpanLibrary.Domain/obj/Debug/net6.0/SpanAcademy.SpanLibrary.Domain.AssemblyInfo.cs
+/Users/macbookpro/Desktop/Span/add-edit/Span.Library/src/SpanAcademy.SpanLibrary.Domain/obj/Debug/net6.0/SpanAcademy.SpanLibrary.Domain.csproj.CoreCompileInputs.cache
+/Users/macbookpro/Desktop/Span/add-edit/Span.Library/src/SpanAcademy.SpanLibrary.Domain/obj/Debug/net6.0/SpanAcademy.SpanLibrary.Domain.dll
+/Users/macbookpro/Desktop/Span/add-edit/Span.Library/src/SpanAcademy.SpanLibrary.Domain/obj/Debug/net6.0/refint/SpanAcademy.SpanLibrary.Domain.dll
+/Users/macbookpro/Desktop/Span/add-edit/Span.Library/src/SpanAcademy.SpanLibrary.Domain/obj/Debug/net6.0/SpanAcademy.SpanLibrary.Domain.pdb
+/Users/macbookpro/Desktop/Span/add-edit/Span.Library/src/SpanAcademy.SpanLibrary.Domain/obj/Debug/net6.0/ref/SpanAcademy.SpanLibrary.Domain.dll
