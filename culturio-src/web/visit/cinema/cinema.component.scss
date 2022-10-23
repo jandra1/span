@@ -1,0 +1,33 @@
+[nz-button]{
+    background-color: #BDB76B;
+    border-color: #BDB76B;
+  }
+
+  .match-parent {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.marker {
+  display: block;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+}
+
+#map {
+  display: block;
+  height: 90%;
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+}
+
+
+
+

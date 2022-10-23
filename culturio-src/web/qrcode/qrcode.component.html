@@ -1,0 +1,18 @@
+<div nz-row nzJustify="start" >
+
+    <button class="gumb" nz-button nzType="primary" nzSize="large" nzShape="circle" routerLink="/visit"><span nz-icon
+            nzType="arrow-left" nzTheme="outline"></span></button>
+  
+  </div>
+
+<div nz-row nzJustify="center">
+    <div>
+        <h1>My QR code is:</h1>
+        <h1>Type in your code: {{qRcode}}</h1>
+        <h1>Or just scan it:</h1>
+        <qrcode *ngIf='qRcode' [allowEmptyString]="true" [qrdata]="qRcode" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+        
+        <h1>{{timeLeft}} Seconds left until new code is created</h1>
+    </div>
+
+</div>

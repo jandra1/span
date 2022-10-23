@@ -1,0 +1,43 @@
+<nz-layout>
+  <nz-header *ngIf="showHead">
+    <div class="logo"></div>
+    <app-navbar></app-navbar>
+  </nz-header>
+  <nz-content>
+    <router-outlet></router-outlet>
+  </nz-content>
+  <nz-footer nz-row nzJustify="center">
+    <h4>Culturio ©2022 Implement By Longhorn</h4>
+  </nz-footer>
+</nz-layout>
+
+<!--<nz-layout style="height: 100vh;">
+  <nz-sider nzCollapsible nzWidth="200px">
+    <app-navbar></app-navbar>
+  </nz-sider>
+  <nz-layout>
+    <nz-header></nz-header>
+    <nz-content>
+      <div>
+        <div>
+          <a class="title" href="/">{{title}}</a>
+          <div class="toolbar-spacer"></div>
+          <button  *ngIf="loginDisplay" (click)="editProfile()">Edit Profile</button>
+          <button *ngIf="!loginDisplay" (click)="login()">Login</button>
+          <button  color="accent" *ngIf="loginDisplay" (click)="logout()">Logout</button>
+        </div>
+        <div class="container">
+          This is to avoid reload during acquireTokenSilent() because of hidden iframe
+          <button (click)="onFetchClick()">Fetch</button>
+          <router-outlet *ngIf="!isIframe"></router-outlet>
+        </div>
+        <div class="container">
+          This is to avoid reload during acquireTokenSilent() because of hidden iframe
+          <button (click)="getUserInfo()">Get info</button>
+          <router-outlet *ngIf="!isIframe"></router-outlet>
+        </div>
+      </div>
+      <router-outlet></router-outlet>
+    </nz-content>
+  </nz-layout>
+</nz-layout>-->

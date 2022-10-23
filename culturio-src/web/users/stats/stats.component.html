@@ -1,0 +1,48 @@
+<h1>Your Statistics</h1>
+
+<nz-row [nzGutter]="16">
+  
+  <nz-col [nzSpan]="12">
+    <nz-statistic [nzValue]="cinemasVisited" [nzTitle]="'Cinemas visited:'"></nz-statistic>
+  </nz-col>
+
+  <nz-col [nzSpan]="12">
+    <nz-statistic [nzValue]="museumsVisited" [nzTitle]="'Museums visited:'"></nz-statistic>
+  </nz-col>
+
+  <nz-col [nzSpan]="12">
+    <nz-statistic [nzValue]="theatersVisited" [nzTitle]="'Theaters visited:'"></nz-statistic>
+  </nz-col>
+  
+  <nz-col [nzSpan]="12">
+    <nz-statistic [nzValue]="totalVisits" [nzTitle]="'Total visits:'"></nz-statistic>
+  </nz-col>
+
+<br>
+
+<h2>Your last {{visitCounter}} visits:</h2>
+
+  <div nz-row nzJustify="center" *ngIf="showTable==totalVisits">
+    <nz-table #nzTable [nzData]="(cObjectArr)!" nzTableLayout="fixed" nz-col nzSpan="18">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type of culture object</th>
+                <th>Address</th>
+                <th>Working hours</th>
+                <th>Time of visit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of nzTable.data;let i = index">
+                <td>{{ data.name }}</td>
+                <td>{{ data.cultureObjectType }}</td>
+                <td>{{ data.address }}</td>
+                <td>{{ data.workingHours }}</td>
+                <td>{{ visits[i].timeOfVisit | date:'dd.MM.yyyy HH:MM'}}</td>
+            </tr>
+        </tbody>
+    </nz-table>
+</div>
+
+</nz-row>

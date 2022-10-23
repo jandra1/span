@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.6.1" />
+    <PackageReference Include="FluentValidation" Version="11.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Graph" Version="4.39.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Culturio.Domain\Culturio.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Visits\" />
+    <None Remove="Visits\Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Visits\" />
+    <Folder Include="Visits\Models\" />
+  </ItemGroup>
+</Project>

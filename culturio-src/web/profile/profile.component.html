@@ -1,0 +1,87 @@
+<form nz-form [formGroup]="fg">
+
+  <nz-form-item>
+    <nz-form-label nzRequired nzFor="firstname">First name</nz-form-label>
+    <nz-form-control  nzErrorTip="The input is not valid first name!">
+      <input nz-input formControlName="firstname" id="firstname"/>
+    </nz-form-control>
+    
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label nzRequired nzFor="lastname">Last name</nz-form-label>
+    <nz-form-control  nzErrorTip="The input is not valid last name!">
+      <input nz-input formControlName="lastname" id="lastname"/>
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label nzRequired nzFor="email">E-mail</nz-form-label>
+    <nz-form-control  nzErrorTip="The input is not valid E-mail!">
+      <input nz-input formControlName="email" id="email" />
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label nzRequired nzFor="sex">Sex</nz-form-label>
+    <nz-form-control>
+      <input nz-input formControlName="sex" id="sex" />
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label nzFor="role">Role</nz-form-label>
+    <nz-form-control>
+      <select formControlName="title" class="form-control">
+        <option value="enduser">End user</option>
+        <option value="couser">Culture object user</option>
+        <option value="coadmin">Culture object admin</option>
+        <option value="coowner">Culture object owner</option>
+        <option value="companyadmin">Company admin</option>
+        <option value="platformadmin">Platform admin</option>
+    </select>
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label nzRequired nzFor="language">Language</nz-form-label>
+    <nz-form-control>
+      <input nz-input formControlName="language" id="language" />
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label nzRequired nzFor="phone">Phone</nz-form-label>
+    <nz-form-control>
+      <input nz-input formControlName="phone" id="phone" />
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label nzRequired nzFor="address">Address</nz-form-label>
+    <nz-form-control>
+      <input nz-input formControlName="address" id="address" />
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label nzRequired nzFor="city">City</nz-form-label>
+    <nz-form-control>
+      <input nz-input formControlName="city" id="city" />
+    </nz-form-control>
+  </nz-form-item>
+</form>
+<!--<h1>User information</h1>
+<nz-descriptions nzLayout="horizontal" nzBordered="true">
+  <nz-descriptions-item nzTitle="First Name">Zhou Maomao</nz-descriptions-item>
+  <nz-descriptions-item nzTitle="Last Name">Momao</nz-descriptions-item>
+
+  <nz-descriptions-item nzTitle="Email">Hangzhou, Zhejiang</nz-descriptions-item>
+  <nz-descriptions-item nzTitle="Address">
+    No. 18, Test street
+  </nz-descriptions-item>
+  <nz-descriptions-item nzTitle="Postal code">1234</nz-descriptions-item>
+  <nz-descriptions-item nzTitle="Sex">Male</nz-descriptions-item>
+  <nz-descriptions-item nzTitle="Role">Platform admin</nz-descriptions-item>
+</nz-descriptions>-->
+

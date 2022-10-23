@@ -1,0 +1,35 @@
+<h1>Check the validation of users code</h1>
+<nz-input-group [nzSuffix]="inputClearTpl">
+    <input type="text" nz-input [(ngModel)]="inputValue" placeholder="Check the validation of code" />
+  </nz-input-group>
+  <ng-template #inputClearTpl>
+    <span
+      nz-icon
+      class="ant-input-clear-icon"
+      nzTheme="fill"
+      nzType="close-circle"
+      *ngIf="inputValue"
+      (click)="inputValue = ''"
+    ></span>
+  </ng-template>
+  <br />
+  <br />
+<button nz-button nzType="primary" (click)="validateQRcode()">Check code</button>
+
+
+<div [ngSwitch] = "status">
+  <div *ngSwitchDefault></div>
+  <div  *ngSwitchCase="1">
+    <nz-result
+    nzStatus="success"
+    nzTitle="The code you have entered is valid"
+    >
+    </nz-result>
+  </div>
+  <div  *ngSwitchCase="2"><nz-result
+    nzTitle="The code you have entered is invalid"
+    nzStatus="error"
+  >
+  </nz-result>
+</div>
+</div>

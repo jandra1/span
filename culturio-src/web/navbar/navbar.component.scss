@@ -1,0 +1,33 @@
+[nz-menu] {
+    background-color: white;
+    color:#556B2F;
+    width: 100%;
+  }
+
+#homeId{
+    background-color:#556B2F;
+    color:white;
+}
+
+
+
+[nz-menu-item]:hover{
+    background-color: #BDB76B;
+    color: white!important;
+}
+
+[nz-menu-item]::selection {
+    color: #fff;
+    background: #BDB76B;
+}
+
+[nzSelected]{
+    color: #fff;
+    background: #BDB76B !important;
+}
+
+#btnProfile{
+    float: right;
+    //border-color: #556B2F;
+    //border: 2px solid;
+}

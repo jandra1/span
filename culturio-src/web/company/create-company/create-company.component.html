@@ -1,0 +1,114 @@
+
+<div nz-row nzJustify="start">
+
+  <button class="gumb" nz-button nzType="primary" nzSize="large" nzShape="circle" routerLink="/company"><span nz-icon
+          nzType="arrow-left" nzTheme="outline"></span></button>
+
+</div>
+<div nz-row nzJustify="center">
+  <div nz-col nzSpan="10">
+
+    <h1><b>Add new company!</b></h1>
+    <nz-divider nzOrientation="left" nzText="Company info"></nz-divider>
+    
+    <form  nz-form class="forma" [nzLayout]="'vertical'" [formGroup]="fg" (ngSubmit)="onSubmit()">
+    
+        <nz-form-item >
+          <nz-form-label nzFor="name">Company name</nz-form-label>
+          <nz-form-control class="gutter-row"  >
+            <input  nz-input formControlName="name" name="name" type="name" id="name">
+          </nz-form-control>
+        </nz-form-item>
+    
+      <div nz-row [nzGutter]="16"> 
+      <div nz-col nzFlex="2.5">
+        <nz-form-item>
+          <nz-form-label nzFor="taxId">TaxId</nz-form-label>
+          <nz-form-control nz-col class="gutter-row"  >
+            <input nz-input formControlName="taxId" name="taxId" type="number" id="taxId">
+          </nz-form-control>
+        </nz-form-item>
+      </div>
+    
+      <div nz-col nzFlex="2.5">
+        <nz-form-item>
+          <nz-form-label   nzFor="vatId">vatId</nz-form-label>
+          <nz-form-control  nz-col class="gutter-row" >
+            <input nz-input formControlName="vatId" name="vatId" type="number" id="vatId">
+          </nz-form-control>
+        </nz-form-item>
+      </div>
+    </div>
+    <div>
+      <nz-form-item>
+        <nz-form-label nz-col class="gutter-row" nzFor="phone">Phone</nz-form-label>
+        <nz-form-control >
+          <input nz-input formControlName="phone" name="phone" type="phone" id="phone">
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+    
+    
+    <nz-divider nzOrientation="left" nzText="Adress info"></nz-divider>
+    <div nz-row [nzGutter]="16"> 
+    
+    <div nz-col nzFlex="2.5">
+      <nz-form-item>
+        <nz-form-label nzFor="address">Adress</nz-form-label>
+        <nz-form-control >
+          <input nz-input formControlName="address" name="address" type="address" id="address">
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+    
+    <div nz-col nzFlex="2.5">
+      <nz-form-item>
+        <nz-form-label nzFor="postalCode">Postal code</nz-form-label>
+        <nz-form-control >
+          <input nz-input formControlName="postalCode" name="postalCode" type="number" id="postalCode">
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+    </div>
+    
+    
+    <div nz-row [nzGutter]="16"> 
+    
+    <div nz-col nzFlex="2.5">
+      <nz-form-item>
+        <nz-form-label  nzFor="state">State</nz-form-label>
+        <nz-form-control >
+          <input nz-input formControlName="state" name="state" type="state" id="state">
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+    
+    <div nz-col nzFlex="2.5">
+      <nz-form-item >
+        <nz-form-label  nzFor="city">City</nz-form-label>
+        <nz-form-control >
+          <input  nz-input formControlName="city" name="city" type="city" id="city">
+        </nz-form-control>
+      </nz-form-item >
+    </div>
+    
+    </div>
+    
+      <nz-divider nzOrientation="left" nzText="Add Corresponding person to company"></nz-divider>
+    
+      <nz-form-item>
+        <nz-form-label  nzFor="correspondencePersonId">Corresponding person Id</nz-form-label>
+        <nz-form-control >
+          <input nz-input formControlName="correspondencePersonId" name="correspondencePersonId" type="number" id="correspondencePersonId">
+        </nz-form-control>
+      </nz-form-item >
+      <div nz-row nzJustify="center">
+        <button nz-button nzType="primary" nzSize="large" nzShape="round"
+        class="login-form-button login-form-margin" nz-button routerLink="/welcome">Save</button>
+      </div>
+
+    </form>
+  </div>
+</div>
+
+

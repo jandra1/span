@@ -1,0 +1,91 @@
+<div nz-row nzJustify="start">
+  <button class="gumb" nz-button nzType="primary" nzSize="large" nzShape="circle" routerLink="/cocompany"><span nz-icon
+          nzType="arrow-left" nzTheme="outline"></span></button>
+</div>
+
+
+
+<div nz-row nzJustify="center">
+  <div nz-col nzSpan="10">
+    <h1><b>Create new user!</b></h1>
+    <form nz-form [formGroup]="fg" [nzLayout]="'vertical'" (ngSubmit)="onSubmit()">
+    
+      <nz-divider nzOrientation="left" nzText="User info"></nz-divider>
+    
+      <div nz-row [nzGutter]="16">
+        <div nz-col nzFlex="2.5">
+          <nz-form-item>
+            <nz-form-label  nzFor="name">First name</nz-form-label>
+            <nz-form-control >
+              <input nz-input formControlName="firstName" name="firstName" type="name" id="name">
+            </nz-form-control>
+          </nz-form-item>
+        </div>
+        <div nz-col nzFlex="2.5">
+          <nz-form-item>
+            <nz-form-label  nzFor="surname">Last name</nz-form-label>
+            <nz-form-control >
+              <input nz-input formControlName="lastName" name="lastName" type="surname" id="surname">
+            </nz-form-control>
+          </nz-form-item>
+        </div>
+      </div>
+    
+    
+    
+    
+      <nz-form-item>
+        <nz-form-label nzFor="email">E-mail</nz-form-label>
+        <nz-form-control >
+          <input nz-input formControlName="email" name="email" type="email" id="email">
+        </nz-form-control>
+      </nz-form-item>
+    
+      <nz-divider nzOrientation="left" nzText="Add password"></nz-divider>
+    
+    
+      <nz-form-item>
+        <nz-form-label  nzFor="password">Password</nz-form-label>
+        <nz-form-control>
+          <input nz-input formControlName="password" name="password" type="password" id="password">
+        </nz-form-control>
+      </nz-form-item> 
+    
+      <nz-form-item>
+        <nz-form-label  nzFor="password">Repeat password</nz-form-label>
+        <nz-form-control >
+          <input nz-input name="password" type="password" id="password">
+        </nz-form-control>
+      </nz-form-item>
+    
+      <nz-divider nzOrientation="left" nzText="Add role to user"></nz-divider>
+    
+      <nz-form-item>
+        <nz-form-label  nzFor="roleId">User Role</nz-form-label>
+        <nz-form-control >
+          <nz-select formControlName="roleId"  name="roleId" type="roleId" id="roleId" nzPlaceHolder="Select role for new user">
+            <nz-option [nzLabel]="'End User'" [nzValue]="1"></nz-option>
+            <nz-option [nzLabel]="'Culture Object User'" [nzValue]="2"></nz-option>
+            <nz-option [nzLabel]="'Culture Object Admin'" [nzValue]="3"></nz-option>
+            <nz-option [nzLabel]="'Culture Object Owner'" [nzValue]="4"></nz-option>
+            <nz-option [nzLabel]="'Company Admin'" [nzValue]="5"></nz-option>
+            <nz-option [nzLabel]="'Platform Admin'" [nzValue]="6"></nz-option>
+          </nz-select>
+
+        </nz-form-control>
+      </nz-form-item >
+      <div nz-row nzJustify="center">
+        <button  nz-button nzType="primary" nzSize="large" nzShape="round"
+         type="submit" class="login-form-button login-form-margin" nz-button routerLink="/welcome" >Save</button> 
+
+      </div>
+    </form>
+
+  </div>
+</div>
+
+
+
+
+
+

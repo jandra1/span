@@ -1,0 +1,64 @@
+
+
+
+
+    <div nz-row nzJustify="start">
+        <button  nz-button nzType="primary" nzSize="large" nzShape="round"
+         class="login-form-button login-form-margin" nz-button routerLink="/qrcode" >Generate QR CODE<span nz-icon
+         nzType="qrcode" nzTheme="outline"></span></button> 
+    
+      </div>
+    <div nz-row nzJustify="center">
+        <h1>WELCOME BACK!</h1>  <!--Dodati ime svakog usera--> 
+    </div>
+    <div nz-row nzJustify="center" class="question">
+            <h2 ><b>Where do you want to go? </b></h2>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+<div nz-row [nzGutter]="16">
+    <div nz-col nzFlex="1">
+        <div nz-col >
+            <h2 id="kino">Cinema</h2>
+        </div>
+        <div>
+            <img [src]="'assets/img/1.jpg'" routerLink="/visit/cinema" class="cinema" alt="image">
+        </div>
+    </div>
+    <div nz-col nzFlex="1">
+<div nz-col>
+
+    <h2 class="muzej">Museum</h2>
+</div>
+
+    <div >
+        <img [src]="'assets/img/2.jpg'" routerLink="/visit/museum" class="museum" alt="image">
+    </div>
+    </div>
+    <div  nz-col nzFlex="1">
+        <div nz-col>
+
+            <h2 class="kazaliste">Theatre</h2>
+        </div>
+        <div >
+            <img [src]="'assets/img/1400.jpg'" routerLink="/visit/theatre" class="theatre" alt="image">
+    
+        </div>
+    </div>
+</div>
+
+<div class="map" id="map" class="match-parent"></div>
+
+
+
+
+
+
+
+
+
+

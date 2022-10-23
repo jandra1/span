@@ -1,0 +1,17 @@
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/bin/Debug/net6.0/Culturio.Application.deps.json
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/bin/Debug/net6.0/Culturio.Application.runtimeconfig.json
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/bin/Debug/net6.0/Culturio.Application.dll
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/bin/Debug/net6.0/Culturio.Application.pdb
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/bin/Debug/net6.0/Culturio.Domain.dll
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/bin/Debug/net6.0/Culturio.Domain.pdb
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/obj/Debug/net6.0/Culturio.Application.csproj.AssemblyReference.cache
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/obj/Debug/net6.0/Culturio.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/obj/Debug/net6.0/Culturio.Application.AssemblyInfoInputs.cache
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/obj/Debug/net6.0/Culturio.Application.AssemblyInfo.cs
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/obj/Debug/net6.0/Culturio.Application.csproj.CoreCompileInputs.cache
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/obj/Debug/net6.0/Culturio.Application.csproj.CopyComplete
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/obj/Debug/net6.0/Culturio.Application.dll
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/obj/Debug/net6.0/refint/Culturio.Application.dll
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/obj/Debug/net6.0/Culturio.Application.pdb
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/obj/Debug/net6.0/Culturio.Application.genruntimeconfig.cache
+/Users/macbookpro/Desktop/devluka/Longhorn/src/Culturio.Application/obj/Debug/net6.0/ref/Culturio.Application.dll

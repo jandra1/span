@@ -1,0 +1,59 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>WELCOME TO CULTURIO!</h1>
+    <hr>
+    <h2><b> “The modern world thinks of art <br>
+            as very important:<br>
+            something close to the meaning of life”<br></b>
+        - Alain de Botton</h2>
+    <img [src]="'assets/img/slika.jpg'" alt="image">
+</body>
+
+</html>-->
+
+<!--<div nz-row>
+    <nz-carousel nzAutoPlay>
+        <div nz-carousel-content *ngFor="let index of [1,2,3,4]">
+            <h3>{{ index }}</h3>
+        </div>
+    </nz-carousel>
+</div>-->
+
+<div nz-row nzJustify="end">
+    <button class="gumb" nz-button nzType="primary" nzSize="large" nzShape="round" (click)="login()"><span nz-icon
+            nzType="login" nzTheme="outline" ></span>Login</button>
+</div>
+<div nz-row nzJustify="end">
+    <button class="gumb" nz-button nzType="primary" nzSize="large" nzShape="round" (click)="logout()"><span nz-icon
+            nzType="login" nzTheme="outline" ></span>Logout</button>
+</div>
+<div>
+    <div>
+        <nz-divider nzText="CULTURIO"></nz-divider>
+    </div>
+    <div nz-row nzJustify="center">
+        <nz-carousel [nzAutoPlay]="true">
+            <div nz-carousel-content *ngFor="let imageUrl of arrayOfImgUrls">
+                <img [src]='imageUrl' />
+            </div>
+        </nz-carousel>
+    </div>
+    <div nz-row nzJustify="center">
+        <nz-card>
+            <h2>“The modern world thinks of art
+                as very important:
+                something close to the meaning of life”<br>
+            </h2>
+            <p> - Alain de Botton</p>
+        </nz-card>
+    </div>
+</div>

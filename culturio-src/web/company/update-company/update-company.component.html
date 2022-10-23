@@ -1,0 +1,61 @@
+<h1>Edit culture object!</h1>
+<form nz-form [formGroup]="fg" (ngSubmit)="onSubmit()">
+    <nz-form-item>
+        <nz-form-label [nzSpan]="6" nzFor="name">Name</nz-form-label>
+        <nz-form-control [nzSpan]="14">
+            <input nz-input name="name" type="name" id="name" formControlName="name">
+        </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-label [nzSpan]="6" nzFor="taxId">TaxId</nz-form-label>
+        <nz-form-control [nzSpan]="14">
+            <input nz-input name="taxId" type="taxId" id="taxId" formControlName="taxId">
+        </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-label [nzSpan]="6" nzFor="vatId">VatId</nz-form-label>
+        <nz-form-control [nzSpan]="14">
+            <input nz-input name="vatId" type="vatId" id="vatId" formControlName="vatId">
+        </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-label [nzSpan]="6" nzFor="phone">Phone</nz-form-label>
+        <nz-form-control [nzSpan]="14">
+            <input nz-input name="phone" type="phone" id="phone" formControlName="phone">
+        </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-label [nzSpan]="6" nzFor="address">Address</nz-form-label>
+        <nz-form-control [nzSpan]="14">
+            <input nz-input name="address" type="address" id="address" formControlName="address">
+        </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-label [nzSpan]="6" nzFor="postalCode">Postal code</nz-form-label>
+        <nz-form-control [nzSpan]="14">
+            <input nz-input name="postalCode" type="postalCode" id="postalCode" formControlName="postalCode">
+        </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-label [nzSpan]="6" nzFor="city">City</nz-form-label>
+        <nz-form-control [nzSpan]="14">
+            <input nz-input name="city" type="city" id="city" formControlName="city">
+        </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-label [nzSpan]="6" nzFor="state">State</nz-form-label>
+        <nz-form-control [nzSpan]="14">
+            <input nz-input name="state" type="state" id="state"
+                formControlName="state">
+        </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-label [nzSpan]="6" nzFor="correspondencePersonId">Correspondence person </nz-form-label>
+        <nz-form-control [nzSpan]="14">
+            <input nz-input name="correspondencePersonId" type="correspondencePersonId" id="correspondencePersonId" 
+            formControlName="correspondencePersonId">
+        </nz-form-control>
+    </nz-form-item>
+
+    <button class="login-form-button login-form-margin" nz-button>Save</button>
+</form>

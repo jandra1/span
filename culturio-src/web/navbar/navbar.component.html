@@ -1,0 +1,78 @@
+<!--<nz-layout>
+
+
+  <nz-page-header nzTitle="Culturio"></nz-page-header>
+
+  <ul nz-menu nzMode="vertical" nzTheme="dark">
+
+    <li nz-menu-item routerLink="/qrcode">
+      <span nz-icon nzType="qrcode" nzTheme="outline"></span>
+      My QR code
+    </li>
+
+    <li nz-submenu nzTitle="Create" nzIcon="plus">
+      <ul>
+
+        <li nz-menu-item routerLink="/users/create">User</li>
+
+        <ul>
+          <li nz-submenu nzTitle="Object">
+            <ul>
+              <li nz-menu-item routerLink="/company/create">Company</li>
+              <li nz-menu-item routerLink="/cocompany/create">Culture object company</li>
+              <li nz-menu-item routerLink="/cobject/create">Culture object</li>
+            </ul>
+          </li>
+        </ul>
+
+      </ul>
+    </li>
+
+    <li nz-submenu nzTitle="View" nzIcon="folder-view">
+      <ul>
+        <li nz-menu-item routerLink="/users"> Users</li>
+        <li nz-menu-item routerLink="/cobject"> Culture objects</li>
+        <li nz-menu-item routerLink="/company"> Company</li>
+        <li nz-menu-item routerLink="/cocompany"> Culture object company</li>
+
+      </ul>
+    </li>
+
+    <li nz-menu-item routerLink="/stats">
+      <span nz-icon nzType="area-chart" nzTheme="outline"></span>
+      Statistics
+    </li>
+
+    <li nz-menu-item routerLink="/profile">
+      <span nz-icon nzType="profile" nzTheme="outline"></span>
+      Profile
+    </li>
+
+    <li nz-menu-item>
+      <span nz-icon nzType="logout" nzTheme="outline"></span>
+      Log out
+    </li>
+
+  </ul>
+</nz-layout>-->
+
+
+<nz-layout>
+  <!--<div class=""><img [src]="'assets/img/team-longhorn-logo.png'" alt="image"></div>-->
+  <div nzTitle="Culturio"></div>
+  <ul nz-menu nzMode="horizontal">
+    <li nz-menu-item routerLink="/users" id="homeId"><strong><span nz-icon nzType="home" nzTheme="outline"></span>
+        HOME</strong></li>
+    <li nz-menu-item routerLink="/users"><strong><span nz-icon nzType="team" nzTheme="outline"></span> USERS</strong>
+    </li>
+    <li nz-menu-item routerLink="/company"><strong><span nz-icon nzType="bank" nzTheme="outline"></span>
+        COMPANIES</strong></li>
+    <li nz-menu-item routerLink="/cocompany"><span nz-icon nzType="shop" nzTheme="outline"></span><strong> CULTURE
+        OBJECT COMPANIES</strong></li>
+    <li nz-menu-item routerLink="/cobject"><strong><span nz-icon nzType="video-camera" nzTheme="outline"></span>
+        CULTURE
+        OBJECTS</strong></li>
+    <li nz-menu-item routerLink="/users" id="btnProfile"><span nz-icon nzType="profile" nzTheme="outline"></span></li>
+
+  </ul>
+</nz-layout>
